@@ -21,9 +21,8 @@ header .header-img{
 }
 
 footer {
-    position: relative; 
     background-color: black;
-    height: 43vh;
+        height: 43vh;
     width: 100%;
 }
 
@@ -31,13 +30,27 @@ footer ul {
     list-style-type: none;
 }
 
+.footer-content {
+    height: 100%;
+     display: flex;
+    justify-content: space-between;
+     padding-top: 50px;
+    padding-left: 122px;
+    padding-right: 146px;
+}
 footer .footer-left-content {
-    position: absolute;
-    top: 50px; 
-    left: 122px;
+   
+    height: 100%;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
-    gap: 30px;
+    /* gap: 30px; */
+}
+
+.footer-org-text {
+    display: flex;
+    padding-bottom: 63px;
+    align-content: flex-end;
 }
 
 footer .footer-img {
@@ -53,16 +66,11 @@ footer .footer-icon {
 footer .icon-list {
     display: flex;
     gap: 18px;
-    /* margin-left: 122px; */
     list-style: none;
     align-items: baseline;
 }
 
-footer .footer-org-text {
-    position: absolute;
-    bottom: 63px;
-    left: 122px;
-}
+
 
 footer .footer-text {
     color: white;
@@ -71,11 +79,9 @@ footer .footer-text {
 
 footer .right-list {
     display: flex;
+    align-content: center;
     flex-direction: column;
     gap: 25px;
-    position: absolute;
-    right: 146px;
-    top: 59px;
 }
 
 footer .inside-right-list {
@@ -126,7 +132,7 @@ footer .inside-right-list {
     font-size: 18px;
 }
 
-@media screen and (min-width: 601px) and (max-width: 1024)
+@media screen and (min-width: 601px) and (max-width: 1024px)
     {
     #section7 .section7-content {
     position: absolute;
@@ -164,13 +170,22 @@ footer .inside-right-list {
     font-family: "Roboto"
 }
 
+footer .footer-content {
+    height: 100%;
+     display: flex;
+    justify-content: space-between;
+     padding-top:28.96px; 
+  padding-left: 70.66px;
+    padding-right: 84px;
+}
     footer .footer-left-content {
-  position: absolute;
-  top:28.96px; 
-  left: 70.66px;
+   
+      height: 100%;
+
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  gap: 17.38px;
+
 }
 
 footer .icon-list {
@@ -191,9 +206,10 @@ footer .footer-icon {
 }
 
 footer .footer-org-text {
-  position: absolute;
-  bottom: 37px;
-  left: 122px;
+
+   display: flex;
+    padding-bottom: 37px;
+    align-content: flex-end;
 }
 
 footer .inside-right-list {
@@ -215,12 +231,15 @@ footer .right-list {
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
     #section7 .section7-content {
-    position: absolute;
-    left: 57px;
-    top: 62px;
+     padding-left: 57px;
+     padding-top: 62px;
+         height: 100%;
+
     display: flex;
+        justify-content: space-between;
+
     flex-direction: column;
-    gap: 50px;
+
 }
 
     #section7 .date-info {
@@ -254,14 +273,20 @@ footer .right-list {
     
 }
 
+.footer-content {
+    height: 100%;
+     display: flex;
+    justify-content: space-between;
+     padding-top:23.03px; 
+  padding-left: 56.85px;
+    padding-right: 84px;
+}
 
    footer .footer-left-content {
-  position: absolute;
-  top:23.03px; 
-  left: 56.85px;
+  height: 100%;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  gap: 13.98px;
 }
 
 footer .icon-list {
@@ -282,9 +307,10 @@ footer .footer-icon {
 }
 
 footer .footer-org-text {
-  position: absolute;
-  bottom: 29px;
-  left: 122px;
+
+   display: flex;
+    padding-bottom: 29px;
+    align-content: flex-end;
 }
 
 footer .inside-right-list {
@@ -296,7 +322,6 @@ footer .right-list {
     display: flex;
     flex-direction: column;
     gap: 11.5px;
-  position: absolute;
   right: 146px;
   top: 59px;
 }
