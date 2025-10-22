@@ -1,10 +1,239 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-header .header-img{
-    width: 100px;
-    background-color: aquamarine;
-    color: black;
+
+@font-face {
+    font-family: "RobotoSlab";
+    src: url(./font-family/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
 }
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./font-family/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+header {
+    padding: 25px 130px;
+    margin-bottom: 73px;
+    height: 18vh;
+}
+
+header .header-img {
+    width: 118px;
+    height: 68px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    header .header-img {
+        width: 64px;
+        height: 38px;
+    }
+
+    header {
+        padding: 25px 70px;
+        margin-bottom: 63px;
+        height: 15vh;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    header .header-img {
+        width: 52px;
+        height: 30px;
+    }
+
+    header {
+        padding: 25px 130px;
+        margin-bottom: 43px;
+        height: 13vh;
+    }
+}
+
+
+
+
+
+#section1 {
+    padding-left: 130px;
+    /* padding-right: 80px; */
+    padding-bottom: 220px;
+}
+
+.section1-top {
+    display: flex;
+    gap: 30px;
+    font-family: "Roboto";
+}
+
+.section1-data {
+    display: flex;
+    gap: 10px;
+}
+
+.section1-center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1-data p {
+    font-size: 22px;
+    padding-top: 2px;
+    line-height: 115%;
+}
+
+.section1-data img {
+    width: 24px;
+    height: 22px;
+}
+
+.section1-data .caln {
+    width: 22px;
+    height: 24px;
+    margin-left: 22px;
+}
+
+.section1-h1 {
+    font-family: "RobotoSlab";
+    font-size: 85px;
+    width: 630px;
+    height: 190px;
+    margin-top: 42px;
+    line-height: 101.4%;
+}
+
+.section1-p {
+    font-size: 21px;
+    width: 444px;
+    height: 62px;
+    font-family: "Roboto";
+    line-height: 150%;
+
+}
+
+.section1-left img {
+    width: 325px;
+    margin-top: 14px;
+    /* margin-right: 20px; */
+    /* padding-right: 20px; */
+}
+
+.section1-buttom {
+    display: flex;
+    justify-content: center;
+}
+
+.section1-btn {
+    width: 500px;
+    background-color: #1E4681;
+    border-radius: 5px;
+    height: 220px;
+    color: white;
+    padding: 30px;
+    padding-right: 110px;
+    margin-top: 55px;
+    /* padding-bottom: 110px; */
+    margin-right: 150px;
+}
+
+.p-top {
+    font-size: 26px;
+    font-family: "RobotoSlab";
+    line-height: 130%;
+}
+
+.p-buttom {
+    font-size: 20px;
+    font-family: "Roboto";
+    text-align: end;
+    padding-top: 10px;
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    #section1 {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 220px;
+        /* padding: 0px; */
+    }
+
+    .section1-data img {
+        width: 12px;
+        height: 11px;
+    }
+
+    .section1-data .caln {
+        width: 12px;
+        height: 12px;
+        margin-left: 0px;
+    }
+
+    .section1-data p {
+        font-size: 12px;
+    }
+
+    .section1-top {
+        gap: 20px;
+    }
+
+    .section1-data {
+        gap: 6px;
+    }
+
+    .section1-h1 {
+        font-size: 46px;
+        width: 363px;
+        height: 92px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .section1-p {
+        font-size: 12px;
+        width: 250px;
+    }
+
+    .section1-left img {
+        width: 176px;
+        height: 217px;
+        margin-right: 20px;
+    }
+
+    .section1-center {
+        display: flex;
+        /* justify-content: flex-start; */
+    }
+
+    .section1-btn {
+        width: 280px;
+        height: 115px;
+        padding: 13px;
+        padding-right: 25px;
+        /* margin-top: 55px; */
+        margin-right: 90px;
+    }
+    .section1-btn .p-top{
+        font-size: 14px;
+        
+    }
+    .section1-btn .p-buttom{
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+}
+@media screen and (min-width: 1025px) and (max-width: 1090px){
+    .section1-left img {
+    width: 250px;
+    margin-top: 14px;
+}
+}
+@media screen and (min-width: 601px) and (max-width: 657px){
+    #section1 {
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {}
