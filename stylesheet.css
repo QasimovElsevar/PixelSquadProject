@@ -1,7 +1,7 @@
-*{
-box-sizing: border-box; 
-margin: 0;
-padding: 0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -14,15 +14,15 @@ padding: 0;
     src: url("./font-family/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf") format("truetype");
 }
 
-header .header-img{
+/* header .header-img {
     width: 100px;
     background-color: aquamarine;
     color: black;
-}
+} */
 
 footer {
     background-color: black;
-        height: 43vh;
+    height: 35vh;
     width: 100%;
 }
 
@@ -32,14 +32,15 @@ footer ul {
 
 .footer-content {
     height: 100%;
-     display: flex;
+    display: flex;
     justify-content: space-between;
-     padding-top: 50px;
+    padding-top: 50px;
     padding-left: 122px;
     padding-right: 146px;
 }
+
 footer .footer-left-content {
-   
+
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -55,6 +56,7 @@ footer .footer-left-content {
 
 footer .footer-img {
     width: 115px;
+    padding-bottom: 20px;
     background-color: black;
     color: black;
 }
@@ -90,19 +92,21 @@ footer .inside-right-list {
 }
 
 #section7 {
-    position: relative;
     width: 100%;
-    height: 71vh;
+    height: 65vh;
     background-color: rgba(157, 201, 200, 1);
+    padding-left: 122px;
+    padding-top: 179px;
 }
 
 #section7 ul {
     list-style-type: none;
+    
 }
+
 #section7 .section7-content {
-    position: absolute;
-    left: 122px;
-    top: 179px;
+    padding-left: 122px;
+    padding-top: 179px;
     display: flex;
     flex-direction: column;
     gap: 84px;
@@ -132,198 +136,222 @@ footer .inside-right-list {
     font-size: 18px;
 }
 
-@media screen and (min-width: 601px) and (max-width: 1024px)
-    {
-    #section7 .section7-content {
-    position: absolute;
-    left: 70px;
-    top: 103px;
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    footer {
+    background-color: black;
+    height: 20vh;
+    width: 100%;
 }
+
+    #section7 {
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(157, 201, 200, 1);
+}
+
+    #section7 .section7-content {
+        padding-left: 70px;
+        padding-top: 103px;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
 
     #section7 .date-info {
-    font-size: 32px;
-    font-weight: bold;
-    font-family: "Roboto Slab"
-}
+        font-size: 32px;
+        font-weight: bold;
+        font-family: "Roboto Slab"
+    }
 
-#section7 .headings {
-    font-size: 14px;
-    font-family: "Roboto"
-}
+    #section7 .headings {
+        font-size: 14px;
+        font-family: "Roboto"
+    }
 
-#section7 .number {
-    font-size: 46px;
-    font-family: "Roboto"
-}
+    #section7 .number {
+        font-size: 46px;
+        font-family: "Roboto"
+    }
 
-#section7 .info-list {
-    display: flex;
-    gap: 49px;
-}
+    #section7 .info-list {
+        display: flex;
+        gap: 49px;
+    }
 
-#section7 .info-text {
-    width: 294px;
-    font-size: 10px;
-    font-family: "Roboto"
-}
+    #section7 .info-text {
+        width: 294px;
+        font-size: 10px;
+        font-family: "Roboto"
+    }
 
-footer .footer-content {
-    height: 100%;
-     display: flex;
-    justify-content: space-between;
-     padding-top:28.96px; 
-  padding-left: 70.66px;
-    padding-right: 84px;
-}
-    footer .footer-left-content {
-   
-      height: 100%;
-
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-
-}
-
-footer .icon-list {
-  display: flex;
-  gap: 10px;
-  list-style: none;
-  align-items: baseline;
-}
-
-footer .footer-img {
-    width: 66.5px;
-    background-color: black;
-    color: black;
-}
-
-footer .footer-icon {
-    width: 19px;
-}
-
-footer .footer-org-text {
-
-   display: flex;
-    padding-bottom: 37px;
-    align-content: flex-end;
-}
-
-footer .inside-right-list {
-    display: flex;
-    gap: 10.5px;
-}
-
-footer .right-list {
-    display: flex;
-    flex-direction: column;
-    gap: 14.5px;
-  position: absolute;
-  right: 146px;
-  top: 59px;
-}
-
-
-}
-
-@media screen and (min-width: 300px) and (max-width: 600px) {
-    #section7 .section7-content {
-     padding-left: 57px;
-     padding-top: 62px;
-         height: 100%;
-
-    display: flex;
+    footer .footer-content {
+        height: 100%;
+        display: flex;
         justify-content: space-between;
+        padding-top: 28.96px;
+        padding-left: 70.66px;
+        padding-right: 84px;
+    }
 
-    flex-direction: column;
+    footer .footer-left-content {
+
+        height: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    footer .icon-list {
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        align-items: baseline;
+    }
+
+    footer .footer-img {
+        width: 66.5px;
+        padding-bottom: 17px;
+        background-color: black;
+        color: black;
+    }
+
+    footer .footer-icon {
+        width: 19px;
+    }
+
+    footer .footer-org-text {
+
+        display: flex;
+        padding-bottom: 37px;
+        align-content: flex-end;
+    }
+
+    footer .inside-right-list {
+        display: flex;
+        gap: 10.5px;
+    }
+
+    footer .right-list {
+        display: flex;
+        flex-direction: column;
+        gap: 14.5px;
+        right: 146px;
+        top: 59px;
+    }
+
 
 }
+
+@media screen and (max-width: 600px) {
+
+    footer {
+    background-color: black;
+    height: 50vh;
+    width: 100%;
+}
+
+     #section7 {
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(157, 201, 200, 1);
+}
+
+    #section7 .section7-content {
+        padding-left: 57px;
+        padding-top: 62px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+
+    }
 
     #section7 .date-info {
-    font-size: 26px;
-    font-weight: bold;
-    font-family: "Roboto Slab"
-}
+        font-size: 26px;
+        font-weight: bold;
+        font-family: "Roboto Slab"
+    }
 
-#section7 .headings {
-    font-size: 12px;
-    font-family: "Roboto"
+    #section7 .headings {
+        font-size: 12px;
+        font-family: "Roboto"
 
-}
+    }
 
-#section7 .number {
-    font-size: 37px;
-    font-family: "Roboto"
+    #section7 .number {
+        font-size: 37px;
+        font-family: "Roboto"
 
-}
+    }
 
-#section7 .info-list {
-    display: flex;
-    gap: 31px;
-    
-}
+    #section7 .info-list {
+        display: flex;
+        flex-direction: column;
+        gap: 31px;
 
-#section7 .info-text {
-    width: 294px;
-    font-size: 10px;
-    font-family: "Roboto"
-    
-}
+    }
 
-.footer-content {
-    height: 100%;
-     display: flex;
-    justify-content: space-between;
-     padding-top:23.03px; 
-  padding-left: 56.85px;
-    padding-right: 84px;
-}
+    #section7 .info-text {
+        width: 294px;
+        font-size: 10px;
+        font-family: "Roboto"
 
-   footer .footer-left-content {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
+    }
 
-footer .icon-list {
-  display: flex;
-  gap: 8.5px;
-  list-style: none;
-  align-items: baseline;
-}
+    footer .footer-content {
+        height: 100%;
+        /* display: flex; */
+        justify-content: space-between;
+        padding-top: 23.03px;
+        padding-left: 56.85px;
+        padding-right: 84px;
+    }
 
-footer .footer-img {
-    width: 53.5px;
-    background-color: black;
-    color: black;
-}
+    footer .footer-left-content {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
 
-footer .footer-icon {
-    width: 15px;
-}
+    footer .icon-list {
+        display: flex;
+        gap: 8.5px;
+        list-style: none;
+        align-items: baseline;
+    }
 
-footer .footer-org-text {
+    footer .footer-img {
+        width: 53.5px;
+        padding-bottom: 14px;
+        background-color: black;
+        color: black;
+    }
 
-   display: flex;
-    padding-bottom: 29px;
-    align-content: flex-end;
-}
+    footer .footer-icon {
+        width: 15px;
+    }
 
-footer .inside-right-list {
-    display: flex;
-    gap: 10.5px;
-}
+    footer .footer-org-text {
 
-footer .right-list {
-    display: flex;
-    flex-direction: column;
-    gap: 11.5px;
-  right: 146px;
-  top: 59px;
-}
+        display: flex;
+        padding-bottom: 29px;
+        align-content: flex-end;
+    }
 
+    footer .inside-right-list {
+        display: flex;
+        gap: 10.5px;
+    }
+
+    footer .right-list {
+        display: flex;
+        flex-direction: column;
+        gap: 11.5px;
+        right: 146px;
+        top: 59px;
+    }
 }
