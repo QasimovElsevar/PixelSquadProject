@@ -176,7 +176,9 @@ body {
 @media screen and (min-width: 300px) and (max-width: 600px) {
     .section2-right img {
         /* width: 170px; */
-        height: 160px;
+        height: 180px;
+        align-items: center;
+        display: flex;
     }
 
     .section2-common {
@@ -206,7 +208,7 @@ body {
     justify-content: space-between;
     padding-bottom: 100px;
     /* padding-right: 300px; */
-}
+}/
 
 .section3-h1 {
       font-family: "RobotoSlab";
