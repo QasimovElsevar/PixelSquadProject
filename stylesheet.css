@@ -208,28 +208,33 @@ header .header-img {
         padding-right: 25px;
         margin-right: 90px;
     }
-    .section1-btn .p-top{
+
+    .section1-btn .p-top {
         font-size: 14px;
-        
+
     }
-    .section1-btn .p-buttom{
+
+    .section1-btn .p-buttom {
         font-size: 12px;
         padding-top: 5px;
     }
 
 }
-@media screen and (min-width: 1025px) and (max-width: 1090px){
+
+@media screen and (min-width: 1025px) and (max-width: 1090px) {
     .section1-left img {
-    width: 250px;
-    margin-top: 14px;
+        width: 250px;
+        margin-top: 14px;
+    }
 }
-}
-@media screen and (min-width: 601px) and (max-width: 657px){
+
+@media screen and (min-width: 601px) and (max-width: 657px) {
     #section1 {
         padding-left: 50px;
         padding-right: 20px;
     }
 }
+
 @media screen and (min-width: 300px) and (max-width: 600px) {}
 
 
@@ -262,9 +267,11 @@ header .header-img {
     padding: 8px 0 30px 20px;
     font-family: "Roboto";
 }
-#section5 .textbox .osen{
+
+#section5 .textbox .osen {
     padding-bottom: 4px;
 }
+
 /* .top-kino{
     padding-bottom: 50px;
 } */
@@ -275,12 +282,14 @@ header .header-img {
     font-weight: 500;
     font-family: "Roboto";
 }
-#section5 .textbox .kino{
+
+#section5 .textbox .kino {
     padding-bottom: 0px;
 }
-#section5 .textbox .osen-top{
 
-}
+/* #section5 .textbox .osen-top{
+
+} */
 
 @media screen and (min-width: 991px) and (max-width: 1387px) {
     #section5 h1 {
@@ -450,160 +459,187 @@ header .header-img {
         font-size: 12px;
         padding: 0 0 15px 20px;
     }
-#section2 {
-    font-size: 18px;
-    margin-bottom: 130px;
-    /* height: 120vh; */
 
-}
-
-.section2-top {
-    font-size: 24px;
-    margin-bottom: 70px;
-}
-
-.section2-h1 {
-    margin-bottom: 40px;
-    font-family: "RobotoSlab";
-}
-
-.section2-p {
-    font-family: Roboto;
-    line-height: 150%;
-}
-.section2-left{
-    width: 662px;
-}
-.section2-right img {
-    width: 500px;
-    padding-right: 100px;
-}
-
-.section2-common {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.section2-button {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 300px;
-    align-items: center;
-}
-
-.section2-text h3 {
-    font-family: Roboto;
-    margin-bottom: 15px;
-    font-size: 25px;
-}
-
-.section2-text p {
-    font-family: Roboto;
-    font-size: 18px;
-}
-
-.section2-img2 {
-    width: 232px;
-    height: 219px;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1292px){
     #section2 {
+        font-size: 18px;
+        margin-bottom: 130px;
+        /* height: 120vh; */
 
+    }
+
+    .section2-top {
+        font-size: 24px;
+        margin-bottom: 70px;
+    }
+
+    .section2-h1 {
+        margin-bottom: 40px;
+        font-family: "RobotoSlab";
+    }
+
+    .section2-p {
+        font-family: Roboto;
+        line-height: 150%;
+    }
+
+    .section2-left {
+        width: 662px;
+    }
+
+    .section2-right img {
+        width: 500px;
+        padding-right: 100px;
+    }
+
+    .section2-common {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .section2-button {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 300px;
+        align-items: center;
+    }
+
+    .section2-text h3 {
+        font-family: Roboto;
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .section2-text p {
+        font-family: Roboto;
+        font-size: 18px;
+    }
+
+    .section2-img2 {
+        width: 232px;
+        height: 219px;
+    }
 }
-    .section2-right img{
+
+@media screen and (min-width: 1024px) and (max-width: 1292px) {
+
+    /* #section2 {
+
+} */
+    .section2-right img {
         width: 350px;
         padding-right: 40px;
     }
 }
-@media screen and (min-width: 1024px) and (max-width: 1142px){
-    #section2 {
 
-}
-    .section2-right img{
+@media screen and (min-width: 1024px) and (max-width: 1142px) {
+
+    /* #section2 {
+
+} */
+    .section2-right img {
         width: 270px;
         padding-right: 0px;
     }
 }
-@media screen and (min-width: 1024px) and (max-width: 1062px){
-    #section2 {
 
-}
-    .section2-right img{
+@media screen and (min-width: 1024px) and (max-width: 1062px) {
+
+    /* #section2 {
+
+} */
+    .section2-right img {
         width: 270px;
         padding-right: 0px;
     }
 }
+
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     .section2-right img {
         width: 300px;
         height: 200px;
     }
+
     .section2-img2 {
         width: 135px;
         height: 118px;
     }
-    .section2-left{
-       width: 283px; 
+
+    .section2-left {
+        width: 283px;
     }
-    .section2-p{
+
+    .section2-p {
         font-family: Roboto;
         font-size: 14px;
     }
-    .section2-top{
+
+    .section2-top {
         font-size: 15px;
     }
-    body {
-    padding-left: 50px;
-}
-.section2-text{
 
+    body {
+        padding-left: 50px;
+    }
+
+    /* .section2-text{
+
+} */
 }
-}
+
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-    .section2-h1{
+    .section2-h1 {
         font-size: 32px;
         font-family: "RobotoSlab";
     }
-    .section2-p{
+
+    .section2-p {
         font-size: 14px;
         font-family: "Roboto";
     }
-   .section2-right img{
-    width: 212px;
-    height: 200px;
-   } 
-   .section2-img2{
-    width: 134px;
-    height: 127px;
-   }
-   .section2-text h1{
-    font-size: 15px;
-    font-family: "Roboto";
-   }
-   .section2-text p{
-    font-size: 11px;
-    font-family: "Roboto";
-   }
-   .section3-h1{
-    font-size: 32px;
-    font-family: "RobotoSlab";
-   }
-   .section3-text h1{
-    font-size: 15px;
-    font-family: "Roboto";
-   }
-   .section3-text p{
-    font-size: 11px;
-    font-family: "Roboto";
-   }
-   .section2-button{
-    padding-right: 70px;
-    
-   }
+
+    .section2-right img {
+        width: 212px;
+        height: 200px;
+    }
+
+    .section2-img2 {
+        width: 134px;
+        height: 127px;
+    }
+
+    .section2-text h1 {
+        font-size: 15px;
+        font-family: "Roboto";
+    }
+
+    .section2-text p {
+        font-size: 11px;
+        font-family: "Roboto";
+    }
+
+    .section3-h1 {
+        font-size: 32px;
+        font-family: "RobotoSlab";
+    }
+
+    .section3-text h1 {
+        font-size: 15px;
+        font-family: "Roboto";
+    }
+
+    .section3-text p {
+        font-size: 11px;
+        font-family: "Roboto";
+    }
+
+    .section2-button {
+        padding-right: 70px;
+
+    }
 }
+
 @media screen and (min-width: 300px) and (max-width: 600px) {
     .section2-right img {
         /* width: 170px; */
@@ -620,7 +656,7 @@ header .header-img {
         padding-left: 36px;
     }
 
-    
+
     .section2-button .section2-img2 {
         display: none;
     }
@@ -640,7 +676,7 @@ header .header-img {
 }
 
 .section3-h1 {
-      font-family: "RobotoSlab";
+    font-family: "RobotoSlab";
     margin-bottom: 90px;
     /* margin-top: 50px; */
     font-size: 48px;
@@ -660,58 +696,59 @@ header .header-img {
 .section3 h1 {
     color: #1e4681;
 
-#section6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #EFEFEF;
-    height: 110vh;
-    padding-left: 130px;
-}
+    #section6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #EFEFEF;
+        height: 110vh;
+        padding-left: 130px;
+    }
 
-#section6 .bottom {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-}
+    #section6 .bottom {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
 
-#section6 .left h3 {
-    margin-bottom: 25px;
-}
+    #section6 .left h3 {
+        margin-bottom: 25px;
+    }
 
-#section6 .box {
-    width: 791px;
-    background-color: white;
-    border-radius: 20px;
-    padding: 40px 40px 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
+    #section6 .box {
+        width: 791px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 40px 40px 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
 
-#section6 h1 {
-    margin-bottom: 70px;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 101%;
-    font-family: "RobotoSlab";
-}
+    #section6 h1 {
+        margin-bottom: 70px;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 101%;
+        font-family: "RobotoSlab";
+    }
 
-#section6 .top p {
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 150%;
-}
+    #section6 .top p {
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 150%;
+    }
 
-#section6 .top {
-    margin-bottom: 30px;
-}
+    #section6 .top {
+        margin-bottom: 30px;
+    }
 
-#section6 .left h3 {
-    font-family: "RobotoSlab";
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 101%;
+    #section6 .left h3 {
+        font-family: "RobotoSlab";
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 101%;
 
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
@@ -749,9 +786,10 @@ header .header-img {
     #section6 .bottom {
         gap: 18px;
     }
+
     #section6 .top {
-    margin-bottom: 20px;
-}
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
@@ -763,7 +801,7 @@ header .header-img {
     #section6 h1 {
         margin-bottom: 30px;
         font-size: 26px;
-        width:  257px;
+        width: 257px;
     }
 
     #section6 .box {
@@ -790,18 +828,20 @@ header .header-img {
     #section6 .bottom {
         gap: 13px;
     }
+
     #section6 .top {
-    margin-bottom: 15px;
-}
+        margin-bottom: 15px;
+    }
 
 }
 
 
 
 
-#section4{
+#section4 {
     padding-left: 130px;
 }
+
 #section4 h1 {
     font-family: "RobotoSlab";
     font-weight: 700;
@@ -822,138 +862,142 @@ header .header-img {
     padding-left: 50px;
 }
 
-@media screen and (min-width: 601px) and (max-width: 1024px){
+@media screen and (min-width: 601px) and (max-width: 1024px) {
     #section4 h1 {
         font-size: 32px;
     }
+
     #section4 .main-part {
         font-size: 14px;
         width: 383px;
     }
 
 }
-@media screen and (min-width: 300px) and (max-width: 600px){
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
     #section4 h1 {
         font-size: 26px;
     }
+
     #section4 .main-part {
         font-size: 12px;
         width: 299px;
     }
 
-footer {
-    background-color: black;
-    height: 35vh;
-    width: 100%;
-}
+    footer {
+        background-color: black;
+        height: 35vh;
+        width: 100%;
+    }
 
-footer ul {
-    list-style-type: none;
-}
+    footer ul {
+        list-style-type: none;
+    }
 
-.footer-content {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-left: 122px;
-    padding-right: 146px;
-}
+    .footer-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+        padding-left: 122px;
+        padding-right: 146px;
+    }
 
-footer .footer-left-content {
-    display: flex;
-    justify-content: space-between;
-}
+    footer .footer-left-content {
+        display: flex;
+        justify-content: space-between;
+    }
 
-.footer-org-text {
-    display: flex;
-    padding-bottom: 63px;
-    align-content: flex-end;
-}
+    .footer-org-text {
+        display: flex;
+        padding-bottom: 63px;
+        align-content: flex-end;
+    }
 
-footer .footer-img {
-    width: 115px;
-    padding-bottom: 20px;
-    background-color: black;
-    color: black;
-}
+    footer .footer-img {
+        width: 115px;
+        padding-bottom: 20px;
+        background-color: black;
+        color: black;
+    }
 
-footer .footer-icon {
-    width: 33px;
-}
+    footer .footer-icon {
+        width: 33px;
+    }
 
-footer .icon-list {
-    display: flex;
-    gap: 18px;
-    list-style: none;
-    align-items: baseline;
-}
+    footer .icon-list {
+        display: flex;
+        gap: 18px;
+        list-style: none;
+        align-items: baseline;
+    }
 
 
 
-footer .footer-text {
-    color: white;
-    font-family: "MyFont", Roboto;
-}
+    footer .footer-text {
+        color: white;
+        font-family: "MyFont", Roboto;
+    }
 
-footer .right-list {
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    gap: 25px;
-}
+    footer .right-list {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        gap: 25px;
+    }
 
-footer .inside-right-list {
-    display: flex;
-    gap: 18px;
-}
+    footer .inside-right-list {
+        display: flex;
+        gap: 18px;
+    }
 
-#section7 {
-    background-color: rgba(157, 201, 200, 1);
-    padding-left: 130px;
-    display: flex;
-    align-items: center;
-    height: 93vh;
-}
+    #section7 {
+        background-color: rgba(157, 201, 200, 1);
+        padding-left: 130px;
+        display: flex;
+        align-items: center;
+        height: 93vh;
+    }
 
-#section7 ul {
-    list-style-type: none;
+    #section7 ul {
+        list-style-type: none;
 
-}
+    }
 
-#section7 .section7-content {
-    display: flex;
-    flex-direction: column;
-    gap: 84px;
-}
+    #section7 .section7-content {
+        display: flex;
+        flex-direction: column;
+        gap: 84px;
+    }
 
-#section7 .date-info {
-    font-size: 55px;
-    font-weight: bold;
-    font-family: "Roboto Slab"
-}
+    #section7 .date-info {
+        font-size: 55px;
+        font-weight: bold;
+        font-family: "Roboto Slab"
+    }
 
-#section7 .headings {
-    font-size: 25px;
-    margin-bottom: 12px;
-    font-family: "Roboto";
-}
+    #section7 .headings {
+        font-size: 25px;
+        margin-bottom: 12px;
+        font-family: "Roboto";
+    }
 
-#section7 .number {
-    font-size: 80px;
-    font-family: "Roboto";
-}
+    #section7 .number {
+        font-size: 80px;
+        font-family: "Roboto";
+    }
 
-#section7 .info-list {
-    display: flex;
-    gap: 70px;
-}
+    #section7 .info-list {
+        display: flex;
+        gap: 70px;
+    }
 
-#section7 .info-text {
-    width: 294px;
-    font-size: 18px;
-    font-family: "Roboto";
+    #section7 .info-text {
+        width: 294px;
+        font-size: 18px;
+        font-family: "Roboto";
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
