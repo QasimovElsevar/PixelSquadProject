@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-body {
-    /* gap: 2em; */
-    padding-left: 130px;
-}
 
 @font-face {
     font-family: "RobotoSlab";
@@ -579,7 +575,7 @@ header .header-img {
     width: 212px;
     height: 200px;
    } 
-   ..section2-img2{
+   .section2-img2{
     width: 134px;
     height: 127px;
    }
@@ -845,4 +841,334 @@ header .header-img {
         width: 299px;
     }
 
+footer {
+    background-color: black;
+    height: 35vh;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.footer-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 122px;
+    padding-right: 146px;
+}
+
+footer .footer-left-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-org-text {
+    display: flex;
+    padding-bottom: 63px;
+    align-content: flex-end;
+}
+
+footer .footer-img {
+    width: 115px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: black;
+}
+
+footer .footer-icon {
+    width: 33px;
+}
+
+footer .icon-list {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    align-items: baseline;
+}
+
+
+
+footer .footer-text {
+    color: white;
+    font-family: "MyFont", Roboto;
+}
+
+footer .right-list {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+footer .inside-right-list {
+    display: flex;
+    gap: 18px;
+}
+
+#section7 {
+    background-color: rgba(157, 201, 200, 1);
+    padding-left: 130px;
+    display: flex;
+    align-items: center;
+    height: 93vh;
+}
+
+#section7 ul {
+    list-style-type: none;
+
+}
+
+#section7 .section7-content {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+}
+
+#section7 .date-info {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: "Roboto Slab"
+}
+
+#section7 .headings {
+    font-size: 25px;
+    margin-bottom: 12px;
+    font-family: "Roboto";
+}
+
+#section7 .number {
+    font-size: 80px;
+    font-family: "Roboto";
+}
+
+#section7 .info-list {
+    display: flex;
+    gap: 70px;
+}
+
+#section7 .info-text {
+    width: 294px;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    footer {
+        background-color: black;
+        height: 35vh;
+        width: 100%;
+    }
+
+    #section7 {
+        background-color: rgba(157, 201, 200, 1);
+        padding-left: 70px;
+        display: flex;
+        align-items: center;
+        height: 60vh;
+    }
+
+    #section7 .section7-content {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    #section7 .date-info {
+        font-size: 32px;
+        font-weight: bold;
+        font-family: "Roboto Slab"
+    }
+
+    #section7 .headings {
+        font-size: 14px;
+        font-family: "Roboto"
+    }
+
+    #section7 .number {
+        font-size: 46px;
+        font-family: "Roboto"
+    }
+
+    #section7 .info-list {
+        display: flex;
+        gap: 49px;
+    }
+
+    #section7 .info-text {
+        width: 170px;
+        font-size: 10px;
+        font-family: "Roboto"
+    }
+
+    footer .footer-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 28.96px;
+        padding-left: 70.66px;
+        padding-right: 84px;
+    }
+
+    footer .footer-left-content {
+
+        height: 100%;
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    footer .icon-list {
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        align-items: baseline;
+    }
+
+    footer .footer-img {
+        width: 66.5px;
+        padding-bottom: 17px;
+        background-color: black;
+        color: black;
+    }
+
+    footer .footer-icon {
+        width: 19px;
+    }
+
+    footer .footer-org-text {
+
+        display: flex;
+        padding-bottom: 37px;
+        align-content: flex-end;
+    }
+
+    footer .inside-right-list {
+        display: flex;
+        gap: 10.5px;
+    }
+
+    footer .right-list {
+        display: flex;
+        flex-direction: column;
+        gap: 14.5px;
+        right: 146px;
+        top: 59px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    footer {
+        background-color: black;
+        height: 40vh;
+        width: 100%;
+    }
+
+    #section7 {
+        background-color: rgba(157, 201, 200, 1);
+        padding-left: 70px;
+
+        display: flex;
+        align-items: center;
+        height: 70vh;
+    }
+
+    #section7 .section7-content {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+
+    }
+
+    #section7 .date-info {
+        font-size: 26px;
+        font-weight: bold;
+        font-family: "Roboto Slab"
+    }
+
+    #section7 .headings {
+        font-size: 12px;
+        font-family: "Roboto"
+
+    }
+
+    #section7 .number {
+        font-size: 37px;
+        font-family: "Roboto"
+
+    }
+
+    #section7 .info-list {
+        display: flex;
+        gap: 31px;
+
+    }
+
+    #section7 .info-text {
+        width: 138px;
+        font-size: 10px;
+        font-family: "Roboto"
+
+    }
+
+    footer .footer-content {
+        height: 100%;
+        padding-top: 23.03px;
+        padding-left: 56.85px;
+        padding-right: 84px;
+    }
+
+    footer .footer-left-content {
+        gap: 48px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .icon-list {
+        display: flex;
+        gap: 8.5px;
+        list-style: none;
+        align-items: baseline;
+    }
+
+    footer .footer-img {
+        width: 53.5px;
+        padding-bottom: 14px;
+        background-color: black;
+        color: black;
+    }
+
+    footer .footer-icon {
+        width: 15px;
+    }
+
+    footer .footer-org-text {
+
+        display: flex;
+        padding-bottom: 29px;
+        align-content: flex-end;
+    }
+
+    footer .inside-right-list {
+        display: flex;
+        gap: 10.5px;
+    }
+
+    footer .right-list {
+        display: flex;
+        flex-direction: column;
+        gap: 11.5px;
+        right: 146px;
+        top: 59px;
+    }
 }
