@@ -712,6 +712,10 @@ header .header-img {
     padding-left: 60px;
     padding-bottom: 70px;
     display: flex;
+    margin: 0 auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 85%;
     flex-wrap: wrap;
     gap: 50px;
 }
@@ -744,7 +748,24 @@ header .header-img {
     padding-bottom: 0px;
 }
 
+@media screen and (min-width: 991px) and (max-width: 1597px) {
+    #section5 h1 {
+        padding-left: 80px;
+    }
 
+    #section5 .big {
+        gap: 40px;
+        padding-left: 50px;
+    }
+
+    #section5 .box {
+        width: 320px;
+    }
+
+    #section5 .imgbox img {
+        width: 320px;
+    }
+}
 @media screen and (min-width: 991px) and (max-width: 1387px) {
     #section5 h1 {
         padding-left: 80px;
@@ -763,7 +784,25 @@ header .header-img {
         width: 320px;
     }
 }
+@media screen and (min-width: 991px) and (max-width: 1283px) {
+    #section5 h1 {
+        font-size: 40px;
+        padding-left: 50px;
+    }
 
+    #section5 .big {
+        gap: 20px;
+        padding-left: 30px;
+    }
+
+    #section5 .box {
+        width: 280px;
+    }
+
+    #section5 .imgbox img {
+        width: 280px;
+    }
+}
 @media screen and (min-width: 991px) and (max-width: 1100px) {
     #section5 h1 {
         font-size: 40px;
@@ -776,11 +815,11 @@ header .header-img {
     }
 
     #section5 .box {
-        width: 300px;
+        width: 250px;
     }
 
     #section5 .imgbox img {
-        width: 300px;
+        width: 250px;
     }
 }
 
@@ -815,7 +854,37 @@ header .header-img {
         padding: 0 0 15px 20px;
     }
 }
+@media screen and (min-width: 601px) and (max-width: 895px) {
+    #section5 h1 {
+        padding: 90px 0 70px 15px;
+        font-size: 32px;
+        padding-left: 15px;
+    }
 
+    #section5 .big {
+        gap: 15px;
+        padding-left: 15px;
+    }
+
+    #section5 .box {
+        width: 190px;
+        border-radius: 19px;
+    }
+
+    #section5 .imgbox img {
+        width: 190px;
+    }
+
+    #section5 .textbox h2 {
+        font-size: 17px;
+        padding: 5px 0 20px 20px;
+    }
+
+    #section5 .textbox p {
+        font-size: 14px;
+        padding: 0 0 15px 20px;
+    }
+}
 @media screen and (min-width: 601px) and (max-width: 750px) {
     #section5 h1 {
         padding: 90px 0 70px 15px;
@@ -829,12 +898,12 @@ header .header-img {
     }
 
     #section5 .box {
-        width: 200px;
+        width: 160px;
         border-radius: 19px;
     }
 
     #section5 .imgbox img {
-        width: 200px;
+        width: 160px;
     }
 
     #section5 .textbox h2 {
@@ -861,12 +930,12 @@ header .header-img {
     }
 
     #section5 .box {
-        width: 190px;
+        width: 155px;
         border-radius: 17px;
     }
 
     #section5 .imgbox img {
-        width: 190px;
+        width: 155px;
     }
 
     #section5 .textbox h2 {
